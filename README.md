@@ -1,2 +1,25 @@
-# AWS-CI-CP-Project
-Project: AWS CI/CD Pipeline Built a CI/CD pipeline using AWS Elastic Beanstalk, RDS, CodeBuild, and CodePipeline. Migrated code from GitHub to Bitbucket, configured CodePipeline to trigger builds on code commits, and automated deployment to Elastic Beanstalk. Ensured smooth integration and deployment with AWS services.
+# Prerequisites
+#
+- JDK 17 
+- Maven 3.9 
+- MySQL 8
+
+# Technologies 
+- Spring MVC
+- Spring Security
+- Spring Data JPA
+- Maven
+- JSP
+- Tomcat
+- MySQL
+- Memcached
+- Rabbitmq
+- ElasticSearch
+# Database
+Here,we used Mysql DB 
+sql dump file:
+- /src/main/resources/db_backup.sql
+- db_backup.sql file is a mysql dump file.we have to import this dump to mysql db server
+- > mysql -u <user_name> -p accounts < db_backup.sql
+
+
